@@ -181,7 +181,7 @@ a {
 }
 
 /* Larger screen styling (min-width: 48em = 768px) */
-@media (min-width: 48em) {
+@media (min-width: 62em) {
   .header li {
     float: left;
   }
@@ -202,21 +202,6 @@ a {
   }
 }
 
-/* For smaller screens, menu fills entire page */
-@media (max-width: 62em) {
-  .header .menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw; /* Full width */
-    height: 100vh; /* Full height */
-    justify-content: center; /* Vertically center items */
-  }
-  .header li a {
-    font-size: 1em; /* Larger font for better readability */
-  }
-}
-  
     /* Heading and paragraph fade-in */
     .buiss_heading, .crypto_heading, .stock_cur_heading, .realEstate_heading, 
     .commodities_heading, .oil_heading, .foods_heading, .precMetals_heading, .projManage_heading, .aboutUS_heading{
