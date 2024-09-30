@@ -271,6 +271,11 @@ html, body {
     z-index: 2;
   } */
 
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
 
 .background_image{
     padding: 10px;
@@ -293,6 +298,7 @@ html, body {
     color: rgb(49, 49, 49);
     text-align: center;
     transform: translate(-50%, -50%);
+    animation: fadeIn 5s;
 }
 
 .subheading {
@@ -383,8 +389,8 @@ html, body {
 .Why_information {
     margin: 20px;
     font-size: 1.3rem;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
     text-align: justify;
     text-justify: inter-word;
 }
@@ -400,15 +406,15 @@ html, body {
     font-size: 1.4rem;
 }
 
-.news-text {
+/* .news-text {
     display: -webkit-box;
     -webkit: 2; /* Limit to 2 lines */
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    transition: all 0.3s ease-in-out;
-    max-height: 3em; /* Adjust based on font-size and line height */
-}
+    /* -webkit-box-orient: vertical; */
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis; */
+    /* transition: all 0.3s ease-in-out; */
+    /* max-height: 3em;  Adjust based on font-size and line height */
+/* }  */
 
 .news-text.expanded {
     -webkit: unset; /* Remove line clamp */
@@ -465,7 +471,7 @@ html, body {
 .find_us_info{
     position: absolute;
     text-align: center;
-    top: 64%;
+    top: 69%;
     left: 50%;
     font-size: 1.6rem;
     font-weight: 300;
