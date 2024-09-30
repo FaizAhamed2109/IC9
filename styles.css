@@ -387,7 +387,8 @@ html, body {
 }
 
 .Why_information {
-    margin: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
     font-size: 1.3rem;
     padding-left: 150px;
     padding-right: 150px;
@@ -423,8 +424,8 @@ html, body {
 
 .details {
     padding: 25px;
-    margin-left: 80px;
-    margin-right: 80px;
+    /* margin-left: 20px; */
+    /* margin-right: 160px; */
     border: 1px solid black;
 }
 
@@ -663,8 +664,8 @@ html, body {
     .Why_information {
         margin: 20px;
         font-size: 1rem;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 120px;
+        padding-right: 120px;
         text-align: justify;
         text-justify: inter-word;
     }
@@ -1021,11 +1022,6 @@ html, body {
         font-size: .8rem;
     }
 
-    .details {
-        padding: 5px;
-        /* margin: 15px; */
-        border: 1px solid black;
-    }
     
     .news_information p {
         font-size: .9rem;
@@ -1134,11 +1130,6 @@ html, body {
         font-size: .8rem;
     }
 
-    .details {
-        padding: 5px;
-        border: 1px solid black;
-    }
-    
     .news_information p {
         font-size: .9rem;
     }
