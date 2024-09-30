@@ -434,7 +434,7 @@ html, body {
 }
 
 .contact_details {
-    width: 20%;
+    width: 100%;
 }
 
 .abt_information {
@@ -1144,7 +1144,7 @@ html, body {
     }
 
     .contact_details, .hours p {
-        font-size: .7rem;
+        font-size: .65rem;
     }
  
 }
